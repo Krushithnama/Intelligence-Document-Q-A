@@ -1,4 +1,4 @@
-# 🧠 Intelligent Document Q&A System (RAG + Memory)
+# 🧠 Intelligent Document Q&A System
 
 A **production-ready, modular Document Q&A system** that combines **Retrieval-Augmented Generation (RAG)** with a **memory layer and feedback loop** to deliver context-aware, evolving answers.
 
@@ -79,7 +79,7 @@ Implements **multi-layer memory**:
 
 ### LLM Options (Flexible)
 
-#### ✅ Option 1: Local (Recommended)
+#### ✅ Option 1: Local 
 
 * Ollama (no API cost)
 * Example model:
@@ -90,13 +90,13 @@ Implements **multi-layer memory**:
 
 #### ✅ Option 2: Cloud (Optional)
 
-* Gemini API (for embeddings + generation)
+* Gemini API (for embeddings & generation)
 
 ---
 
 ### Vector Storage
 
-* FAISS (local vector database)
+* FAISS 
 
 ---
 
@@ -169,7 +169,7 @@ backend/.env.example → backend/.env
 
 ## 🔑 Configuration Logic (IMPORTANT)
 
-### Scenario A: Using Gemini API (Optional)
+### Scenario A: Using Gemini API 
 
 If you have a Gemini API key:
 
@@ -183,7 +183,7 @@ LLM_PROVIDER=gemini
 
 ---
 
-### Scenario B: No API Key (Fully Local Setup)
+### Scenario B: No API Key 
 
 If you **do NOT have Gemini API key**:
 
