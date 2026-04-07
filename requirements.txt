@@ -1,0 +1,4 @@
+-r backend/requirements.txt
+-r backend/tests/requirements.txt
+-r frontend/requirements.txt
+
